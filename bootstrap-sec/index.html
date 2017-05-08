@@ -11,7 +11,7 @@
   </head>
   <body>
   	<!-- Site header and navigation -->
-<header class="top" role="header">
+<header id="header" class="top" role="header">
   <div class="container">
     <a href="#" class="navbar-brand pull-left"> BS3 TUTORIAL </a>
     <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -28,7 +28,7 @@
 </header>
 
 <!-- Site banner -->
-<div class="banner">
+<div id="banner" class="banner">
   <div class="container">
     <h1>Twitter Bootstrap 3: Responsive Design Tutorial</h1>
     <p>A comprehensive tutorial showing you how to quickly create responsive designs using Twitter Bootstrap 3.</p>
@@ -37,17 +37,78 @@
 
 
 <!-- Middle content section -->
-<div class="middle">
+<div id="middle" class="middle">
   <div class="container">
-    <div class="col-md-9 content">
+  <div id="side-nav" class="hidden-xs col-sm-2 col-md-3">
+    	<nav>
+    		<ul class="nav-bar nav">
+    			<li><a href="#header">Top</a></li>
+    			<li><a href="#middle">Middle</a></li>
+    			<li><a href="#pictures">Pictures</a></li>
+    			<li><a href="#footer">Bottom</a></li>
+    		</ul>
+    	</nav>
+    </div>
+    <div class="col-sm-8 col-md-7 content">
       <h2>Use Twitter Bootstrap to create responsive designs for desktop, tablet & mobile</h2>
       <p>Twitter bootstrap allows web developers and designers to quickly create attractive and responsive website templates. This tutorial provided by <a href="http://www.revillweb.com/">RevillWeb.com</a> will show you how to use Twitter Bootstrap 3 to create this responsive website template.</p>
       <div class="to-tutorial">
         <p><strong>Visit the tutorial now to learn more:</strong></p>
         <a href="http://www.revillweb.com/tutorials/bootstrap-tutorial/" class="btn btn-success">TO THE TUTORIAL</a>
+        <h2 id="pictures">Some pictures:</h2>
+        <div class="container-fluid">
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z1.jpg" alt="Image of zelda games"/>
+        	</div>
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z2.jpg" alt="Image of zelda games"/>
+        	</div>
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z3.jpg" alt="Image of zelda games"/>
+        	</div>
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z4.jpg" alt="Image of zelda games"/>
+        	</div>
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z5.jpg" alt="Image of zelda games"/>
+        	</div>
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z6.jpg" alt="Image of zelda games"/>
+        	</div>
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z7.jpg" alt="Image of zelda games"/>
+        	</div>
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z8.jpg" alt="Image of zelda games"/>
+        	</div>
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z9.jpg" alt="Image of zelda games"/>
+        	</div>
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z10.jpg" alt="Image of zelda games"/>
+        	</div>
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z11.jpg" alt="Image of zelda games"/>
+        	</div>
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z12.jpg" alt="Image of zelda games"/>
+        	</div>
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z13.jpg" alt="Image of zelda games"/>
+        	</div>
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z14.jpg" alt="Image of zelda games"/>
+        	</div>
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z15.jpg" alt="Image of zelda games"/>
+        	</div>
+        	<div class="col-sm-6 col-md-4">
+        		<img class="img-responsive" src="public/img/z16.jpg" alt="Image of zelda games"/>
+        	</div>
+        </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-sm-3 col-md-2">
       <h2>Resources</h2>
       <ul class="nav nav-pills nav-stacked">
         <li><a href="http://getbootstrap.com/" target="_blank">Download Twitter Bootstrap</a></li>
@@ -62,7 +123,7 @@
 </div>
 
 <!-- Site footer -->
-<div class="bottom">
+<div id="footer" class="bottom">
   <div class="container">
     <div class="col-md-4">
       <h3><span class="glyphicon glyphicon-heart"></span> Footer section 1</h3>

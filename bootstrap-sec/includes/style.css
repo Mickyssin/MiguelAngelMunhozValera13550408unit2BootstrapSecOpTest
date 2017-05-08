@@ -85,3 +85,10 @@ html {
 .to-tutorial {
   text-align: center;
 }
+#side-nav{
+position: fixed;
+top: 40%;
+left: 0%;
+z-index: +1;
+margin-right: 20px;
+}
